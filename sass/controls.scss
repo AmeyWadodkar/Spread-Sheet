@@ -1,0 +1,66 @@
+body{
+    height: 90vh;
+    .controls{
+        .title{
+            font-family: 'Sofia';
+            font-size: 25px;
+            color: white;
+            float: left;
+            text-align: left;
+            padding: 10px;
+            padding-left: 20px; 
+          }
+         .container{
+            float: right; 
+            text-align: right;
+            margin:5px 10px; 
+        } 
+        border-radius: 10px;
+        overflow: auto;
+        background-color: brown;
+        width: 100%;
+        .button {
+            background-color: white; 
+            border: none;
+            color:black;
+            padding: 2px 10px;
+            margin: 5px 5px;
+            width: 40px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 25px;
+            border-radius: 5px;
+        }
+        .font{
+            font-size: 18px;
+            font-family: 'Segoe UI';
+            color: white;
+        }
+    }
+    .table-wrapper{
+        overflow: auto;
+        height: 75vh;
+    }
+    table{
+        border: 1px solid #ddd;
+        border-collapse: collapse;
+        box-shadow: 0px 0px 30px gray;
+        margin: 20px;
+        margin-left: 5px;
+    }
+
+       #exportToCsv{
+        background-color:brown; 
+        color: white;
+        cursor: pointer;
+        border: none;
+        text-decoration: underline;
+        font-size: 15px; 
+        font-family: 'Segoe UI'; 
+       } 
+       #remove{
+        cursor: pointer;
+        text-decoration: underline;
+        font-size: 15px;
+       }
+}

@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            First page
+        </title>
+    </head>
+
+    <body>
+        <div class="controls">
+                <div class="title">Spreadsheet <br><div id="exportToCsv">Export To Csv&darr;</div>
+                
+                </div>
+                <div class="container"><div id = "remove"class = "font">Remove Formula</div>
+                <span class="font">Rows</span>
+                <button class="button" type="button" id="addRow">+</button>
+                <button class="button" type="button" id="deleteRow">-</button></br>
+                <span class="font">Columns</span>
+                <button class="button" type="button" id="addColumn">+</button>
+                <button class="button" type="button" id="deleteColumn">-</button><br>
+            </div>
+        </div>
+        <div class = "table-wrapper">
+            <table id="myTable" border="1">
+                <tbody>
+                    <tr>
+                        <td id="r0c0" class="first-row first-column">#</td>
+                        <td id="r0c1" class="first-row">c1</td>
+                        <td id="r0c2" class="first-row">c2</td>
+                        <td id="r0c3" class="first-row">c3</td>
+                    </tr>
+                    <tr>
+                        <td id="r1c0" class="first-column">r1</td>
+                        <td id="r1c1" contenteditable="true" class="general-cell"></td>
+                        <td id="r1c2" contenteditable="true" class="general-cell"></td>
+                        <td id="r1c3" contenteditable="true" class="general-cell"></td>
+                    </tr>
+                    <tr>
+                        <td id="r2c0" class="first-column">r2</td>
+                        <td id="r2c1" contenteditable="true" class="general-cell"></td>
+                        <td id="r2c2" contenteditable="true" class="general-cell"></td>
+                        <td id="r2c3" contenteditable="true" class="general-cell"></td>
+                    </tr>
+                </tbody>
+            </table>         
+        </div>
+            <script type="text/javascript" src="dist/spreadsheets.js"></script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+
+table{
+    font-family: 'Segoe UI';
+    margin: 1px;
+    .first-row{
+        background:brown;
+        font-size: 15px;
+        text-align: center;
+        height: 30;
+        color: white;
+    }
+    .first-column{
+        background:brown;
+        font-size: 15px;
+        text-align: center;
+        width: 40px;
+        color: white;
+    }
+  
+    .general-cell{
+        height: 50px;
+        min-width: 135px;
+        font-size: 30px;
+    } 
+}   
